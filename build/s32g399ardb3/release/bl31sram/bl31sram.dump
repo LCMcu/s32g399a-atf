@@ -1,0 +1,627 @@
+
+/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/bl31sram.elf:     file format elf64-littleaarch64
+/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/bl31sram.elf
+architecture: aarch64, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x0000000034302000
+
+Program Header:
+    LOAD off    0x0000000000001000 vaddr 0x0000000034302000 paddr 0x0000000034302000 align 2**12
+         filesz 0x0000000000001000 memsz 0x0000000000001000 flags r-x
+    LOAD off    0x0000000000000000 vaddr 0x0000000034303000 paddr 0x0000000034303000 align 2**12
+         filesz 0x0000000000000000 memsz 0x0000000000004000 flags rw-
+   STACK off    0x0000000000000000 vaddr 0x0000000000000000 paddr 0x0000000000000000 align 2**4
+         filesz 0x0000000000000000 memsz 0x0000000000000000 flags rw-
+private flags = 0x0:
+
+Sections:
+Idx Name          Size      VMA               LMA               File off  Algn
+  0 ro            00001000  0000000034302000  0000000034302000  00001000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .tzfw_normal_stacks 00004000  0000000034303000  0000000034303000  00002000  2**6
+                  ALLOC
+  2 .comment      00000033  0000000000000000  0000000000000000  00002000  2**0
+                  CONTENTS, READONLY
+  3 .debug_frame  00000510  0000000000000000  0000000000000000  00002038  2**3
+                  CONTENTS, READONLY, DEBUGGING, OCTETS
+SYMBOL TABLE:
+0000000034302000 l    d  ro	0000000000000000 ro
+0000000034303000 l    d  .tzfw_normal_stacks	0000000000000000 .tzfw_normal_stacks
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 l    d  .debug_frame	0000000000000000 .debug_frame
+0000000000000000 l    df *ABS*	0000000000000000 bl31sram_entrypoint.o
+0000000000000000 l    df *ABS*	0000000000000000 ddr_lp.c
+0000000000000000 l    df *ABS*	0000000000000000 core_turn_off.c
+0000000000000000 l    df *ABS*	0000000000000000 s32_bl_common.c
+0000000000000000 l    df *ABS*	0000000000000000 s32_mc_me.c
+0000000000000000 l    df *ABS*	0000000000000000 bl31sram_main.c
+0000000000000000 l    df *ABS*	0000000000000000 s32g_clocks.c
+0000000034302718 l     O ro	0000000000000020 CSWTCH.5
+0000000000000000 l    df *ABS*	0000000000000000 s32g_mc_me.c
+0000000000000000 l    df *ABS*	0000000000000000 cache_helpers.o
+0000000034302468 l     F ro	000000000000009c do_dcsw_op
+0000000034302500 l       ro	0000000000000000 exit
+0000000034302504 l       ro	0000000000000000 dcsw_loop_table
+0000000034302484 l       ro	0000000000000000 loop1
+00000000343024e8 l       ro	0000000000000000 level_done
+0000000034302504 l       ro	0000000000000000 loop2_isw
+0000000034302508 l       ro	0000000000000000 loop3_isw
+0000000034302524 l       ro	0000000000000000 loop2_cisw
+0000000034302528 l       ro	0000000000000000 loop3_cisw
+0000000034302544 l       ro	0000000000000000 loop2_csw
+0000000034302548 l       ro	0000000000000000 loop3_csw
+0000000000000000 l    df *ABS*	0000000000000000 misc_helpers.o
+0000000034302590 l     F ro	00000000000000e8 zeromem_dczva
+000000003430267c l       ro	0000000000000000 do_disable_mmu_el3
+0000000000000000 l    df *ABS*	0000000000000000 cortex_a53.o
+0000000034302694 l     F ro	0000000000000014 cortex_a53_disable_dcache
+00000000343026a8 l     F ro	0000000000000018 cortex_a53_disable_smp
+0000000000000000 l    df *ABS*	0000000000000000 platform_up_stack.o
+0000000034303000 l       .tzfw_normal_stacks	0000000000000000 platform_normal_stacks
+0000000000000006 l       *ABS*	0000000000000000 TZ_COUNT
+0000000000000000 l    df *ABS*	0000000000000000 s32_lowlevel_common.o
+0000000034302040 g     F ro	000000000000002c ddrss_gpr_to_io_retention_mode_mmio
+0000000034302588 g     F ro	0000000000000008 zeromem
+0000000034303000 g       ro	0000000000000000 __RW_START__
+0000000034302578 g     F ro	0000000000000010 dcsw_op_level1
+0000000034302210 g     F ro	000000000000001c mc_me_apply_hw_changes
+0000000034302704 g     F ro	0000000000000014 s32_core_pos_by_mpidr
+0000000034303000 g       ro	0000000000000000 __DATA_START__
+0000000034302420 g     F ro	0000000000000010 s32g_ddr2firc
+0000000034302590 g     F ro	00000000000000e8 zero_normalmem
+0000000034302380 g     F ro	000000000000009c sw_mux_clk_config
+00000000343026e8 g     F ro	0000000000000008 plat_panic_handler
+0000000034302070 g     F ro	0000000000000164 ddrss_to_io_retention_mode
+0000000034303000 g       ro	0000000000000000 __STACKS_END__
+00000000343026d8  w    F ro	0000000000000010 plat_set_my_stack
+0000000000000000 g       *ABS*	0000000000000000 __BSS_SIZE__
+0000000034302678 g     F ro	000000000000001c disable_mmu_el3
+0000000034302738 g       ro	0000000000000000 __RO_END_UNALIGNED__
+0000000034302300 g     F ro	0000000000000048 s32g_disable_pll
+0000000034307000 g       .tzfw_normal_stacks	0000000000000000 __BL31SRAM_END__
+0000000034302430 g     F ro	0000000000000038 s32g_set_stby_master_core
+0000000034302564 g     F ro	0000000000000014 dcsw_op_all
+0000000034303000 g       ro	0000000000000000 __DATA_END__
+0000000034303000 g       ro	0000000000000000 __BSS_END__
+0000000034302738 g       ro	0000000000000000 __PARSER_LIB_DESCS_END__
+00000000343022b0 g     F ro	000000000000004c bl31sram_main
+0000000034302350 g     F ro	0000000000000024 s32g_disable_fxosc
+00000000343021e0 g     F ro	000000000000001c core_turn_off
+00000000343026c0 g     F ro	0000000000000018 cortex_a53_core_pwr_dwn
+0000000034302230 g     F ro	0000000000000078 s32_disable_cofb_clk
+0000000034303000 g       ro	0000000000000000 __RO_END__
+0000000034303000 g       ro	0000000000000000 __BSS_START__
+0000000034302000 g       ro	0000000000000000 __RO_START__
+0000000034302200 g     F ro	0000000000000004 ddrss_gpr_to_io_retention_mode
+0000000034307000 g       .tzfw_normal_stacks	0000000000000000 __RW_END__
+0000000034303000 g       ro	0000000000000000 __STACKS_START__
+0000000034302000 g     F ro	0000000000000034 bl31sram_entrypoint
+00000000343026f0 g     F ro	0000000000000014 plat_my_core_pos
+0000000034302738 g       ro	0000000000000000 __PARSER_LIB_DESCS_START__
+
+
+
+Disassembly of section ro:
+
+0000000034302000 <bl31sram_entrypoint>:
+    34302000:	aa0003f4 	mov	x20, x0
+    34302004:	aa0103f5 	mov	x21, x1
+    34302008:	aa0203f6 	mov	x22, x2
+    3430200c:	aa0303f7 	mov	x23, x3
+    34302010:	b0000000 	adrp	x0, 34303000 <__BSS_END__>
+    34302014:	91000000 	add	x0, x0, #0x0
+    34302018:	b0000001 	adrp	x1, 34303000 <__BSS_END__>
+    3430201c:	91000021 	add	x1, x1, #0x0
+    34302020:	cb000021 	sub	x1, x1, x0
+    34302024:	94000159 	bl	34302588 <zeromem>
+    34302028:	940001ac 	bl	343026d8 <plat_set_my_stack>
+    3430202c:	940000a1 	bl	343022b0 <bl31sram_main>
+    34302030:	940001ae 	bl	343026e8 <plat_panic_handler>
+	...
+
+0000000034302040 <ddrss_gpr_to_io_retention_mode_mmio>:
+    34302040:	d298c382 	mov	x2, #0xc61c                	// #50716
+    34302044:	d298c001 	mov	x1, #0xc600                	// #50688
+    34302048:	f2a800e2 	movk	x2, #0x4007, lsl #16
+    3430204c:	f2a800e1 	movk	x1, #0x4007, lsl #16
+    34302050:	b9400040 	ldr	w0, [x2]
+    34302054:	121f7800 	and	w0, w0, #0xfffffffe
+    34302058:	b9000040 	str	w0, [x2]
+    3430205c:	b9400020 	ldr	w0, [x1]
+    34302060:	32120000 	orr	w0, w0, #0x4000
+    34302064:	b9000020 	str	w0, [x1]
+    34302068:	d65f03c0 	ret
+    3430206c:	00000000 	udf	#0
+
+0000000034302070 <ddrss_to_io_retention_mode>:
+    34302070:	d2809203 	mov	x3, #0x490                 	// #1168
+    34302074:	d280a802 	mov	x2, #0x540                 	// #1344
+    34302078:	f2a80783 	movk	x3, #0x403c, lsl #16
+    3430207c:	f2a80782 	movk	x2, #0x403c, lsl #16
+    34302080:	d280be00 	mov	x0, #0x5f0                 	// #1520
+    34302084:	d2807f81 	mov	x1, #0x3fc                 	// #1020
+    34302088:	f2a80780 	movk	x0, #0x403c, lsl #16
+    3430208c:	b900007f 	str	wzr, [x3]
+    34302090:	b900005f 	str	wzr, [x2]
+    34302094:	f2a80781 	movk	x1, #0x403c, lsl #16
+    34302098:	b900001f 	str	wzr, [x0]
+    3430209c:	d503201f 	nop
+    343020a0:	b9400020 	ldr	w0, [x1]
+    343020a4:	35ffffe0 	cbnz	w0, 343020a0 <ddrss_to_io_retention_mode+0x30>
+    343020a8:	d281e482 	mov	x2, #0xf24                 	// #3876
+    343020ac:	d281e501 	mov	x1, #0xf28                 	// #3880
+    343020b0:	f2a80782 	movk	x2, #0x403c, lsl #16
+    343020b4:	f2a80781 	movk	x1, #0x403c, lsl #16
+    343020b8:	b9400040 	ldr	w0, [x2]
+    343020bc:	121f7800 	and	w0, w0, #0xfffffffe
+    343020c0:	b9000040 	str	w0, [x2]
+    343020c4:	d503201f 	nop
+    343020c8:	b9400020 	ldr	w0, [x1]
+    343020cc:	3707ffe0 	tbnz	w0, #0, 343020c8 <ddrss_to_io_retention_mode+0x58>
+    343020d0:	d2800602 	mov	x2, #0x30                  	// #48
+    343020d4:	d2800081 	mov	x1, #0x4                   	// #4
+    343020d8:	f2a80782 	movk	x2, #0x403c, lsl #16
+    343020dc:	f2a80781 	movk	x1, #0x403c, lsl #16
+    343020e0:	b9400040 	ldr	w0, [x2]
+    343020e4:	321b0000 	orr	w0, w0, #0x20
+    343020e8:	b9000040 	str	w0, [x2]
+    343020ec:	d503201f 	nop
+    343020f0:	b9400020 	ldr	w0, [x1]
+    343020f4:	12000800 	and	w0, w0, #0x7
+    343020f8:	71000c1f 	cmp	w0, #0x3
+    343020fc:	54ffffa1 	b.ne	343020f0 <ddrss_to_io_retention_mode+0x80>  // b.any
+    34302100:	d2800081 	mov	x1, #0x4                   	// #4
+    34302104:	f2a80781 	movk	x1, #0x403c, lsl #16
+    34302108:	b9400020 	ldr	w0, [x1]
+    3430210c:	121c0400 	and	w0, w0, #0x30
+    34302110:	7100801f 	cmp	w0, #0x20
+    34302114:	54ffffa1 	b.ne	34302108 <ddrss_to_io_retention_mode+0x98>  // b.any
+    34302118:	d2800081 	mov	x1, #0x4                   	// #4
+    3430211c:	f2a80781 	movk	x1, #0x403c, lsl #16
+    34302120:	b9400020 	ldr	w0, [x1]
+    34302124:	12180400 	and	w0, w0, #0x300
+    34302128:	7108001f 	cmp	w0, #0x200
+    3430212c:	54ffffa1 	b.ne	34302120 <ddrss_to_io_retention_mode+0xb0>  // b.any
+    34302130:	d2803600 	mov	x0, #0x1b0                 	// #432
+    34302134:	d2806403 	mov	x3, #0x320                 	// #800
+    34302138:	f2a80780 	movk	x0, #0x403c, lsl #16
+    3430213c:	f2a80783 	movk	x3, #0x403c, lsl #16
+    34302140:	d2803781 	mov	x1, #0x1bc                 	// #444
+    34302144:	b900001f 	str	wzr, [x0]
+    34302148:	f2a80781 	movk	x1, #0x403c, lsl #16
+    3430214c:	b9400062 	ldr	w2, [x3]
+    34302150:	121f7842 	and	w2, w2, #0xfffffffe
+    34302154:	b9000062 	str	w2, [x3]
+    34302158:	b9400002 	ldr	w2, [x0]
+    3430215c:	32181042 	orr	w2, w2, #0x1f00
+    34302160:	b9000002 	str	w2, [x0]
+    34302164:	b9400002 	ldr	w2, [x0]
+    34302168:	321b0042 	orr	w2, w2, #0x20
+    3430216c:	b9000002 	str	w2, [x0]
+    34302170:	b9400020 	ldr	w0, [x1]
+    34302174:	3707ffe0 	tbnz	w0, #0, 34302170 <ddrss_to_io_retention_mode+0x100>
+    34302178:	d2803600 	mov	x0, #0x1b0                 	// #432
+    3430217c:	d2803781 	mov	x1, #0x1bc                 	// #444
+    34302180:	f2a80780 	movk	x0, #0x403c, lsl #16
+    34302184:	f2a80781 	movk	x1, #0x403c, lsl #16
+    34302188:	b9400002 	ldr	w2, [x0]
+    3430218c:	32181042 	orr	w2, w2, #0x1f00
+    34302190:	b9000002 	str	w2, [x0]
+    34302194:	b9400002 	ldr	w2, [x0]
+    34302198:	121a7842 	and	w2, w2, #0xffffffdf
+    3430219c:	b9000002 	str	w2, [x0]
+    343021a0:	b9400020 	ldr	w0, [x1]
+    343021a4:	3607ffe0 	tbz	w0, #0, 343021a0 <ddrss_to_io_retention_mode+0x130>
+    343021a8:	d2806402 	mov	x2, #0x320                 	// #800
+    343021ac:	d2806481 	mov	x1, #0x324                 	// #804
+    343021b0:	f2a80782 	movk	x2, #0x403c, lsl #16
+    343021b4:	f2a80781 	movk	x1, #0x403c, lsl #16
+    343021b8:	b9400040 	ldr	w0, [x2]
+    343021bc:	32000000 	orr	w0, w0, #0x1
+    343021c0:	b9000040 	str	w0, [x2]
+    343021c4:	d503201f 	nop
+    343021c8:	b9400020 	ldr	w0, [x1]
+    343021cc:	3607ffe0 	tbz	w0, #0, 343021c8 <ddrss_to_io_retention_mode+0x158>
+    343021d0:	1400000c 	b	34302200 <ddrss_gpr_to_io_retention_mode>
+	...
+
+00000000343021e0 <core_turn_off>:
+    343021e0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    343021e4:	910003fd 	mov	x29, sp
+    343021e8:	94000136 	bl	343026c0 <cortex_a53_core_pwr_dwn>
+    343021ec:	d503201f 	nop
+    343021f0:	d5033f9f 	dsb	sy
+    343021f4:	d503207f 	wfi
+    343021f8:	17fffffe 	b	343021f0 <core_turn_off+0x10>
+    343021fc:	00000000 	udf	#0
+
+0000000034302200 <ddrss_gpr_to_io_retention_mode>:
+    34302200:	17ffff90 	b	34302040 <ddrss_gpr_to_io_retention_mode_mmio>
+	...
+
+0000000034302210 <mc_me_apply_hw_changes>:
+    34302210:	d2900000 	mov	x0, #0x8000                	// #32768
+    34302214:	528b5e02 	mov	w2, #0x5af0                	// #23280
+    34302218:	f2a80100 	movk	x0, #0x4008, lsl #16
+    3430221c:	5294a1e1 	mov	w1, #0xa50f                	// #42255
+    34302220:	b9000002 	str	w2, [x0]
+    34302224:	b9000001 	str	w1, [x0]
+    34302228:	d65f03c0 	ret
+    3430222c:	00000000 	udf	#0
+
+0000000034302230 <s32_disable_cofb_clk>:
+    34302230:	d3771c00 	ubfiz	x0, x0, #9, #8
+    34302234:	d2902602 	mov	x2, #0x8130                	// #33072
+    34302238:	f2a80102 	movk	x2, #0x4008, lsl #16
+    3430223c:	b8626803 	ldr	w3, [x0, x2]
+    34302240:	34000323 	cbz	w3, 343022a4 <s32_disable_cofb_clk+0x74>
+    34302244:	d2902006 	mov	x6, #0x8100                	// #33024
+    34302248:	b8226801 	str	w1, [x0, x2]
+    3430224c:	f2a80106 	movk	x6, #0x4008, lsl #16
+    34302250:	7100003f 	cmp	w1, #0x0
+    34302254:	d2902085 	mov	x5, #0x8104                	// #33028
+    34302258:	d2900004 	mov	x4, #0x8000                	// #32768
+    3430225c:	b8666803 	ldr	w3, [x0, x6]
+    34302260:	f2a80105 	movk	x5, #0x4008, lsl #16
+    34302264:	f2a80104 	movk	x4, #0x4008, lsl #16
+    34302268:	d1008042 	sub	x2, x2, #0x20
+    3430226c:	121f7868 	and	w8, w3, #0xfffffffe
+    34302270:	528b5e07 	mov	w7, #0x5af0                	// #23280
+    34302274:	1a830103 	csel	w3, w8, w3, eq  // eq = none
+    34302278:	b8266803 	str	w3, [x0, x6]
+    3430227c:	8b020002 	add	x2, x0, x2
+    34302280:	5294a1e6 	mov	w6, #0xa50f                	// #42255
+    34302284:	b8656803 	ldr	w3, [x0, x5]
+    34302288:	32000063 	orr	w3, w3, #0x1
+    3430228c:	b8256803 	str	w3, [x0, x5]
+    34302290:	b9000087 	str	w7, [x4]
+    34302294:	b9000086 	str	w6, [x4]
+    34302298:	b9400040 	ldr	w0, [x2]
+    3430229c:	6b00003f 	cmp	w1, w0
+    343022a0:	54ffffc1 	b.ne	34302298 <s32_disable_cofb_clk+0x68>  // b.any
+    343022a4:	d65f03c0 	ret
+	...
+
+00000000343022b0 <bl31sram_main>:
+    343022b0:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+    343022b4:	910003fd 	mov	x29, sp
+    343022b8:	940000f0 	bl	34302678 <disable_mmu_el3>
+    343022bc:	d2800020 	mov	x0, #0x1                   	// #1
+    343022c0:	940000a9 	bl	34302564 <dcsw_op_all>
+    343022c4:	97ffff6b 	bl	34302070 <ddrss_to_io_retention_mode>
+    343022c8:	52800001 	mov	w1, #0x0                   	// #0
+    343022cc:	52800000 	mov	w0, #0x0                   	// #0
+    343022d0:	97ffffd8 	bl	34302230 <s32_disable_cofb_clk>
+    343022d4:	94000053 	bl	34302420 <s32g_ddr2firc>
+    343022d8:	52800021 	mov	w1, #0x1                   	// #1
+    343022dc:	52800060 	mov	w0, #0x3                   	// #3
+    343022e0:	94000008 	bl	34302300 <s32g_disable_pll>
+    343022e4:	9400001b 	bl	34302350 <s32g_disable_fxosc>
+    343022e8:	94000102 	bl	343026f0 <plat_my_core_pos>
+    343022ec:	2a0003e1 	mov	w1, w0
+    343022f0:	52800020 	mov	w0, #0x1                   	// #1
+    343022f4:	9400004f 	bl	34302430 <s32g_set_stby_master_core>
+    343022f8:	97ffffba 	bl	343021e0 <core_turn_off>
+    343022fc:	00000000 	udf	#0
+
+0000000034302300 <s32g_disable_pll>:
+    34302300:	53124404 	lsl	w4, w0, #14
+    34302304:	53124400 	lsl	w0, w0, #14
+    34302308:	34000161 	cbz	w1, 34302334 <s32g_disable_pll+0x34>
+    3430230c:	d2901002 	mov	x2, #0x8080                	// #32896
+    34302310:	f2a80062 	movk	x2, #0x4003, lsl #16
+    34302314:	8b020003 	add	x3, x0, x2
+    34302318:	52800000 	mov	w0, #0x0                   	// #0
+    3430231c:	d503201f 	nop
+    34302320:	531e7402 	lsl	w2, w0, #2
+    34302324:	11000400 	add	w0, w0, #0x1
+    34302328:	b822487f 	str	wzr, [x3, w2, uxtw]
+    3430232c:	6b00003f 	cmp	w1, w0
+    34302330:	54ffff81 	b.ne	34302320 <s32g_disable_pll+0x20>  // b.any
+    34302334:	d2900000 	mov	x0, #0x8000                	// #32768
+    34302338:	52b00001 	mov	w1, #0x80000000            	// #-2147483648
+    3430233c:	f2a80060 	movk	x0, #0x4003, lsl #16
+    34302340:	b8244801 	str	w1, [x0, w4, uxtw]
+    34302344:	d65f03c0 	ret
+	...
+
+0000000034302350 <s32g_disable_fxosc>:
+    34302350:	d2a800a2 	mov	x2, #0x40050000            	// #1074069504
+    34302354:	d2800081 	mov	x1, #0x4                   	// #4
+    34302358:	f2a800a1 	movk	x1, #0x4005, lsl #16
+    3430235c:	b9400040 	ldr	w0, [x2]
+    34302360:	121f7800 	and	w0, w0, #0xfffffffe
+    34302364:	b9000040 	str	w0, [x2]
+    34302368:	b9400020 	ldr	w0, [x1]
+    3430236c:	37ffffe0 	tbnz	w0, #31, 34302368 <s32g_disable_fxosc+0x18>
+    34302370:	d65f03c0 	ret
+	...
+
+0000000034302380 <sw_mux_clk_config>:
+    34302380:	12001c21 	and	w1, w1, #0xff
+    34302384:	12001c42 	and	w2, w2, #0xff
+    34302388:	71000c1f 	cmp	w0, #0x3
+    3430238c:	54000408 	b.hi	3430240c <sw_mux_clk_config+0x8c>  // b.pmore
+    34302390:	90000003 	adrp	x3, 34302000 <bl31sram_entrypoint>
+    34302394:	911c6063 	add	x3, x3, #0x718
+    34302398:	d2a88004 	mov	x4, #0x44000000            	// #1140850688
+    3430239c:	f8605860 	ldr	x0, [x3, w0, uxtw #3]
+    343023a0:	eb04001f 	cmp	x0, x4
+    343023a4:	54000340 	b.eq	3430240c <sw_mux_clk_config+0x8c>  // b.none
+    343023a8:	52800803 	mov	w3, #0x40                  	// #64
+    343023ac:	9ba30021 	umaddl	x1, w1, w3, x0
+    343023b0:	910c1020 	add	x0, x1, #0x304
+    343023b4:	d503201f 	nop
+    343023b8:	b9400003 	ldr	w3, [x0]
+    343023bc:	3787ffe3 	tbnz	w3, #16, 343023b8 <sw_mux_clk_config+0x38>
+    343023c0:	b9430023 	ldr	w3, [x1, #768]
+    343023c4:	910c0024 	add	x4, x1, #0x300
+    343023c8:	33081443 	bfi	w3, w2, #24, #6
+    343023cc:	321e0063 	orr	w3, w3, #0x4
+    343023d0:	b9030023 	str	w3, [x1, #768]
+    343023d4:	d503201f 	nop
+    343023d8:	b9400083 	ldr	w3, [x4]
+    343023dc:	3717ffe3 	tbnz	w3, #2, 343023d8 <sw_mux_clk_config+0x58>
+    343023e0:	b9400003 	ldr	w3, [x0]
+    343023e4:	3787ffe3 	tbnz	w3, #16, 343023e0 <sw_mux_clk_config+0x60>
+    343023e8:	b9430420 	ldr	w0, [x1, #772]
+    343023ec:	d3514c01 	ubfx	x1, x0, #17, #3
+    343023f0:	7100043f 	cmp	w1, #0x1
+    343023f4:	54000101 	b.ne	34302414 <sw_mux_clk_config+0x94>  // b.any
+    343023f8:	d3587401 	ubfx	x1, x0, #24, #6
+    343023fc:	12800080 	mov	w0, #0xfffffffb            	// #-5
+    34302400:	6b02003f 	cmp	w1, w2
+    34302404:	1a9f1000 	csel	w0, w0, wzr, ne  // ne = any
+    34302408:	d65f03c0 	ret
+    3430240c:	128002a0 	mov	w0, #0xffffffea            	// #-22
+    34302410:	d65f03c0 	ret
+    34302414:	12800080 	mov	w0, #0xfffffffb            	// #-5
+    34302418:	d65f03c0 	ret
+    3430241c:	00000000 	udf	#0
+
+0000000034302420 <s32g_ddr2firc>:
+    34302420:	52800002 	mov	w2, #0x0                   	// #0
+    34302424:	52800001 	mov	w1, #0x0                   	// #0
+    34302428:	52800060 	mov	w0, #0x3                   	// #3
+    3430242c:	17ffffd5 	b	34302380 <sw_mux_clk_config>
+
+0000000034302430 <s32g_set_stby_master_core>:
+    34302430:	d2900203 	mov	x3, #0x8010                	// #32784
+    34302434:	53181c00 	ubfiz	w0, w0, #8, #8
+    34302438:	f2a80103 	movk	x3, #0x4008, lsl #16
+    3430243c:	d2900082 	mov	x2, #0x8004                	// #32772
+    34302440:	2a010000 	orr	w0, w0, w1
+    34302444:	f2a80102 	movk	x2, #0x4008, lsl #16
+    34302448:	d2900101 	mov	x1, #0x8008                	// #32776
+    3430244c:	b9000060 	str	w0, [x3]
+    34302450:	f2a80101 	movk	x1, #0x4008, lsl #16
+    34302454:	52900000 	mov	w0, #0x8000                	// #32768
+    34302458:	b9000040 	str	w0, [x2]
+    3430245c:	52800020 	mov	w0, #0x1                   	// #1
+    34302460:	b9000020 	str	w0, [x1]
+    34302464:	17ffff6b 	b	34302210 <mc_me_apply_hw_changes>
+
+0000000034302468 <do_dcsw_op>:
+    34302468:	b40004c3 	cbz	x3, 34302500 <exit>
+    3430246c:	d538074c 	mrs	x12, id_aa64mmfr2_el1
+    34302470:	d3545d8c 	ubfx	x12, x12, #20, #4
+    34302474:	1000048e 	adr	x14, 34302504 <dcsw_loop_table>
+    34302478:	8b0015ce 	add	x14, x14, x0, lsl #5
+    3430247c:	aa0903e0 	mov	x0, x9
+    34302480:	52800028 	mov	w8, #0x1                   	// #1
+
+0000000034302484 <loop1>:
+    34302484:	8b4a0542 	add	x2, x10, x10, lsr #1
+    34302488:	9ac22401 	lsr	x1, x0, x2
+    3430248c:	92400821 	and	x1, x1, #0x7
+    34302490:	f100083f 	cmp	x1, #0x2
+    34302494:	540002a3 	b.cc	343024e8 <level_done>  // b.lo, b.ul, b.last
+    34302498:	d51a000a 	msr	csselr_el1, x10
+    3430249c:	d5033fdf 	isb
+    343024a0:	d5390001 	mrs	x1, ccsidr_el1
+    343024a4:	92400822 	and	x2, x1, #0x7
+    343024a8:	91001042 	add	x2, x2, #0x4
+    343024ac:	b400006c 	cbz	x12, 343024b8 <loop1+0x34>
+    343024b0:	d3435c24 	ubfx	x4, x1, #3, #21
+    343024b4:	14000002 	b	343024bc <loop1+0x38>
+    343024b8:	d3433024 	ubfx	x4, x1, #3, #10
+    343024bc:	5ac01085 	clz	w5, w4
+    343024c0:	1ac52089 	lsl	w9, w4, w5
+    343024c4:	1ac52110 	lsl	w16, w8, w5
+    343024c8:	2a090149 	orr	w9, w10, w9
+    343024cc:	b400006c 	cbz	x12, 343024d8 <loop1+0x54>
+    343024d0:	d360dc26 	ubfx	x6, x1, #32, #24
+    343024d4:	14000002 	b	343024dc <loop1+0x58>
+    343024d8:	530d6c26 	ubfx	w6, w1, #13, #15
+    343024dc:	1ac22111 	lsl	w17, w8, w2
+    343024e0:	d5033f9f 	dsb	sy
+    343024e4:	d61f01c0 	br	x14
+
+00000000343024e8 <level_done>:
+    343024e8:	9100094a 	add	x10, x10, #0x2
+    343024ec:	eb0a007f 	cmp	x3, x10
+    343024f0:	54fffca8 	b.hi	34302484 <loop1>  // b.pmore
+    343024f4:	d51a001f 	msr	csselr_el1, xzr
+    343024f8:	d5033f9f 	dsb	sy
+    343024fc:	d5033fdf 	isb
+
+0000000034302500 <exit>:
+    34302500:	d65f03c0 	ret
+
+0000000034302504 <dcsw_loop_table>:
+    34302504:	1ac220c7 	lsl	w7, w6, w2
+
+0000000034302508 <loop3_isw>:
+    34302508:	2a07012b 	orr	w11, w9, w7
+    3430250c:	d508764b 	dc	isw, x11
+    34302510:	6b1100e7 	subs	w7, w7, w17
+    34302514:	54ffffa2 	b.cs	34302508 <loop3_isw>  // b.hs, b.nlast
+    34302518:	eb100129 	subs	x9, x9, x16
+    3430251c:	54ffff42 	b.cs	34302504 <dcsw_loop_table>  // b.hs, b.nlast
+    34302520:	17fffff2 	b	343024e8 <level_done>
+
+0000000034302524 <loop2_cisw>:
+    34302524:	1ac220c7 	lsl	w7, w6, w2
+
+0000000034302528 <loop3_cisw>:
+    34302528:	2a07012b 	orr	w11, w9, w7
+    3430252c:	d5087e4b 	dc	cisw, x11
+    34302530:	6b1100e7 	subs	w7, w7, w17
+    34302534:	54ffffa2 	b.cs	34302528 <loop3_cisw>  // b.hs, b.nlast
+    34302538:	eb100129 	subs	x9, x9, x16
+    3430253c:	54ffff42 	b.cs	34302524 <loop2_cisw>  // b.hs, b.nlast
+    34302540:	17ffffea 	b	343024e8 <level_done>
+
+0000000034302544 <loop2_csw>:
+    34302544:	1ac220c7 	lsl	w7, w6, w2
+
+0000000034302548 <loop3_csw>:
+    34302548:	2a07012b 	orr	w11, w9, w7
+    3430254c:	d5087a4b 	dc	csw, x11
+    34302550:	6b1100e7 	subs	w7, w7, w17
+    34302554:	54ffffa2 	b.cs	34302548 <loop3_csw>  // b.hs, b.nlast
+    34302558:	eb100129 	subs	x9, x9, x16
+    3430255c:	54ffff42 	b.cs	34302544 <loop2_csw>  // b.hs, b.nlast
+    34302560:	17ffffe2 	b	343024e8 <level_done>
+
+0000000034302564 <dcsw_op_all>:
+    34302564:	d5390029 	mrs	x9, clidr_el1
+    34302568:	d3586923 	ubfx	x3, x9, #24, #3
+    3430256c:	d37ff863 	lsl	x3, x3, #1
+    34302570:	aa1f03ea 	mov	x10, xzr
+    34302574:	17ffffbd 	b	34302468 <do_dcsw_op>
+
+0000000034302578 <dcsw_op_level1>:
+    34302578:	d5390029 	mrs	x9, clidr_el1
+    3430257c:	d2800043 	mov	x3, #0x2                   	// #2
+    34302580:	d100086a 	sub	x10, x3, #0x2
+    34302584:	17ffffb9 	b	34302468 <do_dcsw_op>
+
+0000000034302588 <zeromem>:
+    34302588:	8b010002 	add	x2, x0, x1
+    3430258c:	14000030 	b	3430264c <zero_normalmem+0xbc>
+
+0000000034302590 <zero_normalmem>:
+    34302590:	8b010002 	add	x2, x0, x1
+    34302594:	d53b00e3 	mrs	x3, dczid_el0
+    34302598:	d3400c63 	ubfx	x3, x3, #0, #4
+    3430259c:	d2800085 	mov	x5, #0x4                   	// #4
+    343025a0:	9ac320a3 	lsl	x3, x5, x3
+    343025a4:	eb03003f 	cmp	x1, x3
+    343025a8:	54000523 	b.cc	3430264c <zero_normalmem+0xbc>  // b.lo, b.ul, b.last
+    343025ac:	d1000461 	sub	x1, x3, #0x1
+    343025b0:	ea01001f 	tst	x0, x1
+    343025b4:	54000260 	b.eq	34302600 <zero_normalmem+0x70>  // b.none
+    343025b8:	aa010004 	orr	x4, x0, x1
+    343025bc:	91000484 	add	x4, x4, #0x1
+    343025c0:	b4000464 	cbz	x4, 3430264c <zero_normalmem+0xbc>
+    343025c4:	eb02009f 	cmp	x4, x2
+    343025c8:	54000428 	b.hi	3430264c <zero_normalmem+0xbc>  // b.pmore
+    343025cc:	f2400c1f 	tst	x0, #0xf
+    343025d0:	540000e0 	b.eq	343025ec <zero_normalmem+0x5c>  // b.none
+    343025d4:	b2400c05 	orr	x5, x0, #0xf
+    343025d8:	910004a5 	add	x5, x5, #0x1
+    343025dc:	b4000385 	cbz	x5, 3430264c <zero_normalmem+0xbc>
+    343025e0:	3800141f 	strb	wzr, [x0], #1
+    343025e4:	eb05001f 	cmp	x0, x5
+    343025e8:	54ffffc1 	b.ne	343025e0 <zero_normalmem+0x50>  // b.any
+    343025ec:	eb04001f 	cmp	x0, x4
+    343025f0:	54000082 	b.cs	34302600 <zero_normalmem+0x70>  // b.hs, b.nlast
+    343025f4:	a8817c1f 	stp	xzr, xzr, [x0], #16
+    343025f8:	eb04001f 	cmp	x0, x4
+    343025fc:	54ffffc3 	b.cc	343025f4 <zero_normalmem+0x64>  // b.lo, b.ul, b.last
+    34302600:	8a210044 	bic	x4, x2, x1
+    34302604:	eb04001f 	cmp	x0, x4
+    34302608:	540000a2 	b.cs	3430261c <zero_normalmem+0x8c>  // b.hs, b.nlast
+    3430260c:	d50b7420 	dc	zva, x0
+    34302610:	8b030000 	add	x0, x0, x3
+    34302614:	eb04001f 	cmp	x0, x4
+    34302618:	54ffffa3 	b.cc	3430260c <zero_normalmem+0x7c>  // b.lo, b.ul, b.last
+    3430261c:	927cec44 	and	x4, x2, #0xfffffffffffffff0
+    34302620:	eb04001f 	cmp	x0, x4
+    34302624:	54000082 	b.cs	34302634 <zero_normalmem+0xa4>  // b.hs, b.nlast
+    34302628:	a8817c1f 	stp	xzr, xzr, [x0], #16
+    3430262c:	eb04001f 	cmp	x0, x4
+    34302630:	54ffffc3 	b.cc	34302628 <zero_normalmem+0x98>  // b.lo, b.ul, b.last
+    34302634:	eb02001f 	cmp	x0, x2
+    34302638:	54000080 	b.eq	34302648 <zero_normalmem+0xb8>  // b.none
+    3430263c:	3800141f 	strb	wzr, [x0], #1
+    34302640:	eb02001f 	cmp	x0, x2
+    34302644:	54ffffc1 	b.ne	3430263c <zero_normalmem+0xac>  // b.any
+    34302648:	d65f03c0 	ret
+    3430264c:	f2400c1f 	tst	x0, #0xf
+    34302650:	54fffe60 	b.eq	3430261c <zero_normalmem+0x8c>  // b.none
+    34302654:	b2400c04 	orr	x4, x0, #0xf
+    34302658:	91000484 	add	x4, x4, #0x1
+    3430265c:	b4fffec4 	cbz	x4, 34302634 <zero_normalmem+0xa4>
+    34302660:	eb02009f 	cmp	x4, x2
+    34302664:	54fffe82 	b.cs	34302634 <zero_normalmem+0xa4>  // b.hs, b.nlast
+    34302668:	3800141f 	strb	wzr, [x0], #1
+    3430266c:	eb04001f 	cmp	x0, x4
+    34302670:	54ffffc1 	b.ne	34302668 <zero_normalmem+0xd8>  // b.any
+    34302674:	17ffffea 	b	3430261c <zero_normalmem+0x8c>
+
+0000000034302678 <disable_mmu_el3>:
+    34302678:	d28000a1 	mov	x1, #0x5                   	// #5
+
+000000003430267c <do_disable_mmu_el3>:
+    3430267c:	d53e1000 	mrs	x0, sctlr_el3
+    34302680:	8a210000 	bic	x0, x0, x1
+    34302684:	d51e1000 	msr	sctlr_el3, x0
+    34302688:	d5033fdf 	isb
+    3430268c:	d5033f9f 	dsb	sy
+    34302690:	d65f03c0 	ret
+
+0000000034302694 <cortex_a53_disable_dcache>:
+    34302694:	d53e1001 	mrs	x1, sctlr_el3
+    34302698:	927df821 	and	x1, x1, #0xfffffffffffffffb
+    3430269c:	d51e1001 	msr	sctlr_el3, x1
+    343026a0:	d5033fdf 	isb
+    343026a4:	d65f03c0 	ret
+
+00000000343026a8 <cortex_a53_disable_smp>:
+    343026a8:	d539f221 	mrs	x1, s3_1_c15_c2_1
+    343026ac:	9279f821 	and	x1, x1, #0xffffffffffffffbf
+    343026b0:	d519f221 	msr	s3_1_c15_c2_1, x1
+    343026b4:	d5033fdf 	isb
+    343026b8:	d5033f9f 	dsb	sy
+    343026bc:	d65f03c0 	ret
+
+00000000343026c0 <cortex_a53_core_pwr_dwn>:
+    343026c0:	aa1e03f2 	mov	x18, x30
+    343026c4:	97fffff4 	bl	34302694 <cortex_a53_disable_dcache>
+    343026c8:	d2800020 	mov	x0, #0x1                   	// #1
+    343026cc:	97ffffab 	bl	34302578 <dcsw_op_level1>
+    343026d0:	aa1203fe 	mov	x30, x18
+    343026d4:	17fffff5 	b	343026a8 <cortex_a53_disable_smp>
+
+00000000343026d8 <plat_set_my_stack>:
+    343026d8:	b0000020 	adrp	x0, 34307000 <__BL31SRAM_END__>
+    343026dc:	91000000 	add	x0, x0, #0x0
+    343026e0:	9100001f 	mov	sp, x0
+    343026e4:	d65f03c0 	ret
+
+00000000343026e8 <plat_panic_handler>:
+    343026e8:	d503207f 	wfi
+    343026ec:	17ffffff 	b	343026e8 <plat_panic_handler>
+
+00000000343026f0 <plat_my_core_pos>:
+    343026f0:	aa1e03e8 	mov	x8, x30
+    343026f4:	d53800a0 	mrs	x0, mpidr_el1
+    343026f8:	94000003 	bl	34302704 <s32_core_pos_by_mpidr>
+    343026fc:	aa0803fe 	mov	x30, x8
+    34302700:	d65f03c0 	ret
+
+0000000034302704 <s32_core_pos_by_mpidr>:
+    34302704:	92401c01 	and	x1, x0, #0xff
+    34302708:	92781c00 	and	x0, x0, #0xff00
+    3430270c:	d348fc00 	lsr	x0, x0, #8
+    34302710:	8b000820 	add	x0, x1, x0, lsl #2
+    34302714:	d65f03c0 	ret
+
+0000000034302718 <CSWTCH.5>:
+    34302718:	40030000 00000000 40034000 00000000     ...@.....@.@....
+    34302728:	44018000 00000000 40068000 00000000     ...D.......@....
+
+0000000034302738 <__PARSER_LIB_DESCS_END__>:
+	...

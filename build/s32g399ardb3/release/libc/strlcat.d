@@ -1,0 +1,6 @@
+/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/libc/strlcat.o: \
+ lib/libc/strlcat.c include/lib/libc/string.h include/lib/libc/stddef.h \
+ include/lib/libc/aarch64/stddef_.h
+include/lib/libc/string.h:
+include/lib/libc/stddef.h:
+include/lib/libc/aarch64/stddef_.h:

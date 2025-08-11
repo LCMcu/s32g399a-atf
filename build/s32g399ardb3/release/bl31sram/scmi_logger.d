@@ -1,0 +1,97 @@
+/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/scmi_logger.o: \
+ drivers/arm/css/scmi/scmi_logger.c include/lib/libc/assert.h \
+ include/lib/libc/cdefs.h include/common/debug.h include/lib/utils_def.h \
+ include/export/lib/utils_def_exp.h include/lib/libc/stdarg.h \
+ include/lib/libc/stdbool.h include/lib/libc/stdio.h \
+ include/lib/libc/stddef.h include/lib/libc/aarch64/stddef_.h \
+ include/lib/libc/aarch64/stdio_.h include/drivers/console.h \
+ include/lib/libc/stdint.h include/lib/libc/limits.h \
+ include/lib/libc/aarch64/limits_.h include/lib/libc/aarch64/stdint_.h \
+ include/drivers/console_assertions.h include/lib/cassert.h \
+ include/plat/common/platform.h include/lib/psci/psci.h \
+ plat/nxp/s32/s32cc/s32g/s32g3/s32g399ardb3/include/platform_def.h \
+ plat/nxp/s32/s32cc/s32g/s32g3/include/s32g3_platform_def.h \
+ plat/nxp/s32/s32cc/s32g/include/s32g_platform_def.h \
+ include/common/tbbr/tbbr_img_def.h \
+ include/export/common/tbbr/tbbr_img_def_exp.h \
+ include/export/common/tbbr/../../lib/utils_def_exp.h \
+ plat/nxp/s32/s32cc/include/s32cc_platform_def.h \
+ include/plat/common/common_def.h include/common/bl_common.h \
+ include/common/ep_info.h include/common/param_header.h \
+ include/export/common/param_header_exp.h \
+ include/export/common/../lib/utils_def_exp.h \
+ include/export/common/ep_info_exp.h \
+ include/export/common/param_header_exp.h \
+ include/export/common/bl_common_exp.h \
+ include/export/common/ep_info_exp.h \
+ include/export/common/tbbr/tbbr_img_def_exp.h \
+ include/lib/xlat_tables/xlat_tables_defs.h include/arch/aarch64/arch.h \
+ include/lib/xlat_tables/xlat_mmu_helpers.h include/lib/libc/string.h \
+ include/arch/aarch64/arch_helpers.h include/lib/bakery_lock.h \
+ include/lib/psci/psci_lib.h include/drivers/fwu/fwu_metadata.h \
+ include/tools_share/uuid.h drivers/scmi-msg/common.h \
+ drivers/scmi-msg/base.h drivers/scmi-msg/clock.h \
+ drivers/scmi-msg/power_domain.h drivers/scmi-msg/perf.h \
+ drivers/scmi-msg/reset_domain.h drivers/arm/css/scmi/scmi_logger.h \
+ drivers/arm/css/scmi/scmi_private.h include/lib/mmio.h \
+ include/drivers/arm/css/scmi.h include/lib/spinlock.h \
+ drivers/arm/css/scmi/scmi_logger_private.h
+include/lib/libc/assert.h:
+include/lib/libc/cdefs.h:
+include/common/debug.h:
+include/lib/utils_def.h:
+include/export/lib/utils_def_exp.h:
+include/lib/libc/stdarg.h:
+include/lib/libc/stdbool.h:
+include/lib/libc/stdio.h:
+include/lib/libc/stddef.h:
+include/lib/libc/aarch64/stddef_.h:
+include/lib/libc/aarch64/stdio_.h:
+include/drivers/console.h:
+include/lib/libc/stdint.h:
+include/lib/libc/limits.h:
+include/lib/libc/aarch64/limits_.h:
+include/lib/libc/aarch64/stdint_.h:
+include/drivers/console_assertions.h:
+include/lib/cassert.h:
+include/plat/common/platform.h:
+include/lib/psci/psci.h:
+plat/nxp/s32/s32cc/s32g/s32g3/s32g399ardb3/include/platform_def.h:
+plat/nxp/s32/s32cc/s32g/s32g3/include/s32g3_platform_def.h:
+plat/nxp/s32/s32cc/s32g/include/s32g_platform_def.h:
+include/common/tbbr/tbbr_img_def.h:
+include/export/common/tbbr/tbbr_img_def_exp.h:
+include/export/common/tbbr/../../lib/utils_def_exp.h:
+plat/nxp/s32/s32cc/include/s32cc_platform_def.h:
+include/plat/common/common_def.h:
+include/common/bl_common.h:
+include/common/ep_info.h:
+include/common/param_header.h:
+include/export/common/param_header_exp.h:
+include/export/common/../lib/utils_def_exp.h:
+include/export/common/ep_info_exp.h:
+include/export/common/param_header_exp.h:
+include/export/common/bl_common_exp.h:
+include/export/common/ep_info_exp.h:
+include/export/common/tbbr/tbbr_img_def_exp.h:
+include/lib/xlat_tables/xlat_tables_defs.h:
+include/arch/aarch64/arch.h:
+include/lib/xlat_tables/xlat_mmu_helpers.h:
+include/lib/libc/string.h:
+include/arch/aarch64/arch_helpers.h:
+include/lib/bakery_lock.h:
+include/lib/psci/psci_lib.h:
+include/drivers/fwu/fwu_metadata.h:
+include/tools_share/uuid.h:
+drivers/scmi-msg/common.h:
+drivers/scmi-msg/base.h:
+drivers/scmi-msg/clock.h:
+drivers/scmi-msg/power_domain.h:
+drivers/scmi-msg/perf.h:
+drivers/scmi-msg/reset_domain.h:
+drivers/arm/css/scmi/scmi_logger.h:
+drivers/arm/css/scmi/scmi_private.h:
+include/lib/mmio.h:
+include/drivers/arm/css/scmi.h:
+include/lib/spinlock.h:
+drivers/arm/css/scmi/scmi_logger_private.h:
