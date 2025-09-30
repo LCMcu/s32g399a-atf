@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/ddrss_cfg.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/ddrss_cfg.o: \
  drivers/nxp/s32/ddr/ddrss_cfg.c include/drivers/nxp/s32/ddr/ddr_init.h \
  include/lib/libc/stdlib.h include/lib/libc/stddef.h \
  include/lib/libc/aarch64/stddef_.h \

@@ -1,6 +1,6 @@
 
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/bl31sram.elf:     file format elf64-littleaarch64
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/bl31sram.elf
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/bl31sram.elf:     file format elf64-littleaarch64
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/bl31sram.elf
 architecture: aarch64, flags 0x00000112:
 EXEC_P, HAS_SYMS, D_PAGED
 start address 0x0000000034302000

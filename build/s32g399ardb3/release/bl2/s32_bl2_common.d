@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/s32_bl2_common.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/s32_bl2_common.o: \
  plat/nxp/s32/common/s32_bl2_common.c \
  plat/nxp/s32/include/s32_bl2_common.h include/lib/libc/errno.h \
  plat/nxp/s32/s32cc/s32g/s32g3/s32g399ardb3/include/platform_def.h \

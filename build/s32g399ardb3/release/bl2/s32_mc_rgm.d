@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/s32_mc_rgm.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/s32_mc_rgm.o: \
  plat/nxp/s32/s32cc/s32_mc_rgm.c \
  plat/nxp/s32/s32cc/include/s32cc_mc_rgm.h include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/libc/stdint.h \

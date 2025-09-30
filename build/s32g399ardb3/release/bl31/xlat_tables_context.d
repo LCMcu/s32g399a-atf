@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/xlat_tables_context.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/xlat_tables_context.o: \
  lib/xlat_tables_v2/xlat_tables_context.c \
  include/arch/aarch64/arch_helpers.h include/lib/libc/cdefs.h \
  include/lib/libc/stdbool.h include/lib/libc/stdint.h \

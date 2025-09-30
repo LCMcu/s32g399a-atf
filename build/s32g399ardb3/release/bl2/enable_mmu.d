@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/enable_mmu.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/enable_mmu.o: \
  lib/xlat_tables_v2/aarch64/enable_mmu.S \
  include/arch/aarch64/asm_macros.S include/arch/aarch64/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \

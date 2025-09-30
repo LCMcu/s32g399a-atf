@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/s32g_clocks.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/s32g_clocks.o: \
  plat/nxp/s32/s32cc/s32g/s32g_clocks.c \
  plat/nxp/s32/s32cc/s32g/include/s32g_clocks.h \
  include/dt-bindings/clock/s32gen1-clock-freq.h \

@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/ddr_lp_csr.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/ddr_lp_csr.o: \
  drivers/nxp/s32/ddr/ddr_lp_csr.c include/drivers/nxp/s32/ddr/ddr_lp.h \
  include/drivers/nxp/s32/ddr/ddr_init.h include/lib/libc/stdlib.h \
  include/lib/libc/stddef.h include/lib/libc/aarch64/stddef_.h \

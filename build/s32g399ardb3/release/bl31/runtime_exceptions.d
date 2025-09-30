@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/runtime_exceptions.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/runtime_exceptions.o: \
  bl31/aarch64/runtime_exceptions.S \
  plat/nxp/s32/s32cc/s32g/s32g3/s32g399ardb3/include/platform_def.h \
  plat/nxp/s32/s32cc/s32g/s32g3/include/s32g3_platform_def.h \

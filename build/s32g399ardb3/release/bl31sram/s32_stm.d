@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/s32_stm.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/s32_stm.o: \
  drivers/nxp/s32/stm/s32_stm.c include/lib/libc/stdint.h \
  include/lib/libc/limits.h include/lib/libc/aarch64/limits_.h \
  include/lib/libc/aarch64/stdint_.h include/common/debug.h \

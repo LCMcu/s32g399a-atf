@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/s32_scp_utils.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/s32_scp_utils.o: \
  plat/nxp/s32/s32cc/s32_scp_utils.c \
  plat/nxp/s32/s32cc/include/s32cc_bl_common.h \
  include/drivers/nxp/s32/i2c/s32_i2c.h include/lib/libc/stdint.h \

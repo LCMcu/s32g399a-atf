@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/bl31_traps.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/bl31_traps.o: \
  bl31/bl31_traps.c include/bl31/sync_handle.h include/lib/libc/stdbool.h \
  include/lib/el3_runtime/aarch64/context.h \
  include/lib/el3_runtime/cpu_data.h \

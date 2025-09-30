@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/cortex_a53.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/cortex_a53.o: \
  lib/cpus/aarch64/cortex_a53.S include/arch/aarch64/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/arch/aarch64/asm_macros.S include/common/asm_macros_common.S \

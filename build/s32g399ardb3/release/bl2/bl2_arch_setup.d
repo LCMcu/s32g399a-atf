@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/bl2_arch_setup.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/bl2_arch_setup.o: \
  bl2/aarch64/bl2_arch_setup.c include/arch/aarch64/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/arch/aarch64/arch_helpers.h include/lib/libc/cdefs.h \

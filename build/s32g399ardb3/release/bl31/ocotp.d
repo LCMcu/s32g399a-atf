@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/ocotp.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/ocotp.o: \
  drivers/nxp/s32/ocotp.c plat/nxp/s32/s32cc/include/s32cc_dt.h \
  include/lib/libfdt/libfdt_env.h include/lib/libc/stdbool.h \
  include/lib/libc/stddef.h include/lib/libc/aarch64/stddef_.h \

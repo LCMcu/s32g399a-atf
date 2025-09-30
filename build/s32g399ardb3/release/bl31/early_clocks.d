@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/early_clocks.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/early_clocks.o: \
  drivers/nxp/s32/clk/early_clocks.c \
  include/drivers/nxp/s32/clk/s32gen1_clk_funcs.h \
  include/lib/libc/stdint.h include/lib/libc/limits.h \

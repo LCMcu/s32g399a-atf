@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/s32_i2c.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/s32_i2c.o: \
  drivers/nxp/s32/i2c/s32_i2c.c include/common/fdt_wrappers.h \
  include/lib/libfdt/libfdt_env.h include/lib/libc/stdbool.h \
  include/lib/libc/stddef.h include/lib/libc/aarch64/stddef_.h \

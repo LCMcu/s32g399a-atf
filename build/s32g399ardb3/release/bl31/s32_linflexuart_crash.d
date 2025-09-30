@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/s32_linflexuart_crash.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/s32_linflexuart_crash.o: \
  plat/nxp/s32/s32cc/s32_linflexuart_crash.S \
  plat/nxp/s32/s32cc/include/plat_macros.S \
  include/arch/aarch64/asm_macros.S include/arch/aarch64/arch.h \

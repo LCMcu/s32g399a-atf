@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/get_rate.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/get_rate.o: \
  drivers/nxp/s32/clk/get_rate.c include/drivers/nxp/s32/clk/mc_cgm_regs.h \
  plat/nxp/s32/s32cc/include/s32cc_bl_common.h \
  include/drivers/nxp/s32/i2c/s32_i2c.h include/lib/libc/stdint.h \

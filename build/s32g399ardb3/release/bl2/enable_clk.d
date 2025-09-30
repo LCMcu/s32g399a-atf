@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/enable_clk.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/enable_clk.o: \
  drivers/nxp/s32/clk/enable_clk.c \
  include/drivers/nxp/s32/clk/mc_cgm_regs.h \
  plat/nxp/s32/s32cc/include/s32cc_bl_common.h \

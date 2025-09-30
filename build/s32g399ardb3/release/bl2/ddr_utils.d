@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/ddr_utils.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/ddr_utils.o: \
  drivers/nxp/s32/ddr/ddr_utils.c include/drivers/nxp/s32/ddr/ddr_utils.h \
  include/lib/mmio.h include/lib/libc/stdint.h include/lib/libc/limits.h \
  include/lib/libc/aarch64/limits_.h include/lib/libc/aarch64/stdint_.h \

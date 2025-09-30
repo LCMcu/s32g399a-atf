@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/s32_scmi_perf.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/s32_scmi_perf.o: \
  plat/nxp/s32/s32cc/s32_scmi_perf.c include/lib/libc/cdefs.h \
  include/drivers/nxp/s32/clk/s32gen1_scmi_perf.h \
  include/drivers/nxp/s32/clk/s32gen1_clk_funcs.h \

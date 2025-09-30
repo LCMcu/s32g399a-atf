@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/s32_mc_me.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/s32_mc_me.o: \
  plat/nxp/s32/s32cc/s32_mc_me.c include/lib/utils_def.h \
  include/export/lib/utils_def_exp.h include/lib/mmio.h \
  include/lib/libc/stdint.h include/lib/libc/limits.h \

@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/s32_bl_common.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/s32_bl_common.o: \
  plat/nxp/s32/s32cc/s32_bl_common.c include/arch/aarch64/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/common/debug.h include/lib/libc/cdefs.h \

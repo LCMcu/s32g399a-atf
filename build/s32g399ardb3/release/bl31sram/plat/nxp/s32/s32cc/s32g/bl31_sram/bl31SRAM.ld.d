@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/plat/nxp/s32/s32cc/s32g/bl31_sram/bl31SRAM.ld: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/plat/nxp/s32/s32cc/s32g/bl31_sram/bl31SRAM.ld: \
  plat/nxp/s32/s32cc/s32g/bl31_sram/bl31SRAM.ld.S \
  plat/nxp/s32/s32cc/s32g/s32g3/s32g399ardb3/include/platform_def.h \
  plat/nxp/s32/s32cc/s32g/s32g3/include/s32g3_platform_def.h \

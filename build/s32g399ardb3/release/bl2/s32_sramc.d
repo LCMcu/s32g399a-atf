@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/s32_sramc.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/s32_sramc.o: \
  plat/nxp/s32/s32cc/s32_sramc.c include/arch/aarch64/arch_helpers.h \
  include/lib/libc/cdefs.h include/lib/libc/stdbool.h \
  include/lib/libc/stdint.h include/lib/libc/limits.h \

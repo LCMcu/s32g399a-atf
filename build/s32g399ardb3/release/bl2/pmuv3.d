@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/pmuv3.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/pmuv3.o: \
  lib/extensions/pmuv3/aarch64/pmuv3.c include/arch/aarch64/arch.h \
  include/lib/utils_def.h include/export/lib/utils_def_exp.h \
  include/arch/aarch64/arch_features.h include/lib/libc/stdbool.h \

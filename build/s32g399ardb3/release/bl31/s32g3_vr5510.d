@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/s32g3_vr5510.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/s32g3_vr5510.o: \
  plat/nxp/s32/s32cc/s32g/s32g3/s32g3_vr5510.c \
  plat/nxp/s32/s32cc/s32g/include/s32g_bl_common.h \
  include/lib/libc/stdbool.h include/lib/libc/stdint.h \

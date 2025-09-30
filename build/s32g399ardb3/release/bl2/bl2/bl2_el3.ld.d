@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl2/bl2/bl2_el3.ld: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl2/bl2/bl2_el3.ld: \
  bl2/bl2_el3.ld.S include/common/bl_common.ld.h \
  plat/nxp/s32/s32cc/s32g/s32g3/s32g399ardb3/include/platform_def.h \
  plat/nxp/s32/s32cc/s32g/s32g3/include/s32g3_platform_def.h \

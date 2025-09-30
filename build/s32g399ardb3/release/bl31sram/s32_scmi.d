@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31sram/s32_scmi.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31sram/s32_scmi.o: \
  plat/nxp/s32/common/s32_scmi.c include/lib/libc/errno.h \
  plat/nxp/s32/include/s32_scmi.h include/lib/libc/stdint.h \
  include/lib/libc/limits.h include/lib/libc/aarch64/limits_.h \

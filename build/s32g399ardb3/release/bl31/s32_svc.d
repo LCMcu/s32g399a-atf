@@ -1,4 +1,4 @@
-/home/lc/work/s32g/s32g399a/arm-trusted-firmware/build/s32g399ardb3/release/bl31/s32_svc.o: \
+/home/lc/work/s32g/s32g399a/s32g399a-atf/build/s32g399ardb3/release/bl31/s32_svc.o: \
  plat/nxp/s32/s32cc/s32_svc.c \
  include/drivers/nxp/s32/clk/s32gen1_scmi_clk.h \
  include/drivers/nxp/s32/clk/clk.h include/lib/libc/stddef.h \
