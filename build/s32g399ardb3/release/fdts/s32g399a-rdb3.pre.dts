@@ -2374,11 +2374,11 @@
   };
   work@3410000 {
    label = "Work";
-   reg = <0x3410000 0x400000>;
+   reg = <0x3410000 0x800000>;
   };
-  reserved@3810000 {
+  reserved@3c10000 {
    label = "Reserved";
-   reg = <0x3810000 0x6f0000>;
+   reg = <0x3c10000 0x2f0000>;
   };
   image-info@3f00000 {
    label = "Image-Info";
